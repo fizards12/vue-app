@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import { RouterView } from 'vue-router';
+import MainData from './components/MainData.vue';
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import { RouterView } from 'vue-router';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <RouterView/>
+  <MainData></MainData>
 </template>
 
 <style scoped>
